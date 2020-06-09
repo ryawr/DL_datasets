@@ -10,16 +10,17 @@ we are gonna use the checkpoints (storing the trained parameter values).
 # Directory structure
 
 We have to upload the files (available in this repository) onto drive containing the tensorflow repository.
+
 Upload:
-# faster_rcnn_inception_v2_coco_2018_01_28
-# xml_to_csv.py
-# generate_tfrecord.py
-# Object_detection_image.py
+### faster_rcnn_inception_v2_coco_2018_01_28
+### xml_to_csv.py
+### generate_tfrecord.py
+### Object_detection_image.py
 and create a folder "training",
 in the directory structure of tensorflow repository - models/research/object_detection/
 
 Upload:
-# faster_rcnn_inception_v2_pets.config
-# lebelmap.pbtxt
+### faster_rcnn_inception_v2_pets.config
+### lebelmap.pbtxt
 in the directory structure of tensorflow repository - models/research/object_detection/training/
 
