@@ -1,4 +1,4 @@
-## cards_detection.ipynb is the final notebook with all the instructions of merging all the files
+### cards_detection.ipynb is the final notebook with all the instructions of merging all the files
 
 Whole dataset and files are stored on google drive and operations carried out by mounting the drive.
 
