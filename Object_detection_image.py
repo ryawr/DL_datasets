@@ -13,7 +13,7 @@
 ## and some is copied from Dat Tran's example at
 ## https://github.com/datitran/object_detector_app/blob/master/object_detection_app.py
 
-## but I changed it to make it more understandable to me.
+## but changed it to make it more understandable to me.
 
 # Import packages
 import os
