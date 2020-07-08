@@ -1,7 +1,7 @@
 # Draws boxes, scores, and labels around the objects.
 
 ## Some of the code is copied from Google's example at
-## https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
+## https://github.com/tensorflow/models/blob/079d67d9a0b3407e8d074a200780f3835413ef99/research/object_detection/object_detection_tutorial.ipynb
 
 ## and some is copied from Dat Tran's example at
 ## https://github.com/datitran/object_detector_app/blob/master/object_detection_app.py
@@ -16,7 +16,7 @@ import sys
 import PIL
 import io
 
-# This is needed since the notebook is stored in the object_detection folder.
+# Since the notebook is stored in the object_detection folder.
 sys.path.append("..")
 
 from utils import label_map_util
@@ -26,7 +26,7 @@ flags = tf.app.flags
 flags.DEFINE_string('IMAGE_NAME', '', 'image to be tested')
 FLAGS = flags.FLAGS
 
-# Name of the directory containing the object detection module we're using
+# Directory containing the object detection module we're using
 MODEL_NAME = 'inference_graph'
 IMAGE_NAME = FLAGS.IMAGE_NAME
 
@@ -61,7 +61,7 @@ with detection_graph.as_default():
 
     sess = tf.Session(graph=detection_graph)
 
-# Define input and output tensors (i.e. data) for the object detection classifier
+# Define input and output tensors for the object detection classifier
 
 # Input tensor is the image
 image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
